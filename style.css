@@ -1,0 +1,311 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.lightbox__close {
+  background: none;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 10px;
+  font-size: 40px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lightbox__close:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox__content {
+  border-top: 14px solid #fc3;
+  background-image: url("https://drive.google.com/uc?export=view&id=1MZ35PBCIgBtrYwQZUvLGsijVzVcUqPHW");
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 40px;
+}
+
+.lightbox__contents, button{
+  font-family: Verdana, Arial, Open-Sans;
+  font-size: 15px;
+  background-color: #7a0019;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.lightbox__contents, button:hover {
+background-color: #900021;
+  transition: all 0.4s ease-in-out;
+}
+
+.lightbox_button {
+color: #fff;
+}
+
+.lightbox__contents, p{
+  padding: 0px 50px 0px 50px;
+}
+
+.site-header {
+  width: 100%;
+  border-top: 6px solid #fc3;
+}
+
+.wordmark_campuses {
+  padding-left: 10px;
+}
+
+.logo {
+  background-image: url("https://drive.google.com/uc?export=view&id=1ypcHWqhUep0KChqNBoZ2CnWaZwW51X3-");
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+.campus-menu {
+  padding: 0px;
+}
+
+.campus-menu_item {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.campus-menu_item a {
+  color: #868686;
+  font-size: 14px;
+  padding: 1px;
+}
+
+.campus-menu_item a:hover {
+  background-color: #f0efee;
+  transition: all 0.4s ease-in-out;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_links,
+ul, li,
+a {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: flex-start;
+  padding: 10px;
+  color: #3d3d3d;
+  text-align: center;
+}
+
+.top_menu {
+  font-size: 14px;
+}
+
+.search {
+  background-color: #fff;
+  border: 1px solid black;
+  font-size: 14px;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.search:hover {
+  background-color: #f0efee;
+}
+
+.main_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0efee;
+  font-size: 14px;
+}
+
+.main_menu ul {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main_menu a:hover {
+  background-color: #f7f3f2;
+  transition: all 0.4s ease-in-out;
+}
+
+.main_menu .icon {
+  display: none;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.lightbox__inner {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  min-height: 100px;
+  background: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.covid {
+  background-color: #7a0019;
+  color: #fff;
+  padding: 20px;
+}
+
+.covid-banner {
+  width: 60%;
+}
+
+.covid-buttons {
+  color: #fff;
+  background-color: #7a0019;
+  border: 1px solid #fff;
+}
+
+.covid-buttons:hover {
+  background-color: #900021;
+  transition: all 0.4s ease-in-out;
+}
+
+.covid-buttons a {
+  color: #fff;
+}
+
+.hero-image {
+  background-image: url("https://drive.google.com/uc?export=view&id=1orQ_GTgXoyikmgTEf8OkahBmJYKDxJ89");
+  height: 350px;
+  border-bottom: 15px solid #fc3;
+  background-size: cover;
+}
+
+.bold_minds {
+  background-color: #f9f7f6;
+  padding: 20px;
+}
+
+.bold_minds p {
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.visit {
+  padding-bottom: 20px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.visit_buttons {
+  background-color: #7a0019;
+  border: none;
+  max-width: 250px;
+  width: 100%;
+  color: #fff;
+}
+
+.visit_buttons, a {
+  font-size: 16px;
+  justify-content: center;
+}
+
+.visit_links {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    transform: scale(0.7);
+  }
+
+  .header_links {
+    display: none;
+  }
+  .main_menu a {
+    display: none;
+  }
+  .main_menu a.icon {
+    float: right;
+    display: block;
+  }
+  .main_menu.responsive {
+    position: relative;
+  }
+  .main_menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .main_menu.responsive ul {
+    flex-direction: column;
+  }
+  .main_menu.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .covid-buttons {
+    margin: 10px;
+  }
+  
+  .visit {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 50%;
+  }
+  .visit_buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wordmark_campuses {
+    transform: scale(0.7)
+    padding: 0;
+  }
+  .covid {
+    display: block;
+  }
+  .covid-banner{
+    width: 100%;
+  }
+  .covid-buttons{
+    padding: 0;
+    margin: 5px;;
+  }
+  
+}
+
+
