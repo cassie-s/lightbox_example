@@ -33,7 +33,7 @@ li {
 
 .lightbox__content {
   border-top: 14px solid #fc3;
-  background-image: url("https://drive.google.com/uc?export=view&id=1MZ35PBCIgBtrYwQZUvLGsijVzVcUqPHW");
+  background-image: url("./assets/background__homepage__summer.jpg");
   box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.7);
   text-align: center;
   padding: 40px;
@@ -71,7 +71,7 @@ color: #fff;
 }
 
 .logo {
-  background-image: url("https://drive.google.com/uc?export=view&id=1ypcHWqhUep0KChqNBoZ2CnWaZwW51X3-");
+  background-image: url("./assets/uofm.png");
   background-repeat: no-repeat;
   height: 80px;
 }
@@ -200,7 +200,7 @@ a {
 }
 
 .hero-image {
-  background-image: url("https://drive.google.com/uc?export=view&id=1orQ_GTgXoyikmgTEf8OkahBmJYKDxJ89");
+  background-image: url("./assets/students-wearing-masks.jpeg");
   height: 350px;
   border-bottom: 15px solid #fc3;
   background-size: cover;
